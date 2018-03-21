@@ -1,5 +1,5 @@
-import { Component, OnInit ,Input,Output} from '@angular/core';
-import { EventEmitter } from 'events';
+import { Component, OnInit ,Input,Output,EventEmitter} from '@angular/core';
+
 
 import { FormsModule } from '@angular/forms';
 @Component({
@@ -11,10 +11,12 @@ export class TextComponent implements OnInit {
 
   constructor() { }
 
-  @Input() data:string;
-  @Output() dataArr= new EventEmitter();
-  add(){
-    this.dataArr.emit(this.data);
+  content='';
+  i=0;
+  @Output() dataInput= new EventEmitter();
+  addData(){
+    this.dataInput.emit(this.content);
+    this.content = '';
   }
   ngOnInit() {
   }

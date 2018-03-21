@@ -9,7 +9,7 @@ export class ListComponent implements OnInit {
 
   constructor() { }
   @Input() dataArr=[];
-  @Output() finArr=[];
+  finArr=[];
   changeData1(i){
     this.finArr.push(this.dataArr[i]);
     this.dataArr.splice(i,1);
@@ -24,6 +24,7 @@ export class ListComponent implements OnInit {
   delete2(i){
     this.finArr.splice(i,1);
   }
+
   ngOnInit() {
   }
 
