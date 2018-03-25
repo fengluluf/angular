@@ -1,0 +1,17 @@
+<router-outlet></router-outlet>
+<ul>
+  <li *ngFor="let item of list;let i = index;" (click)="goDetile(i)">   
+    <!-- <a [routerLink]="['/goodslist/',i]">{{item}}</a> -->
+    <div id="img">
+      <img src="{{item.goodsListImg}}">
+    </div>
+    <div id="goodsName">
+      <div id="name">{{item.goodsName}}</div>
+    </div>
+
+    <div id="last">
+      <div id="discount">折扣：{{item.discount}}</div>
+      <div id="price">￥{{item.price}}</div>
+    </div>
+  </li>
+</ul>
