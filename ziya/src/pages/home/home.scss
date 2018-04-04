@@ -1,0 +1,35 @@
+page-home {
+    #title{
+    height:68px;
+    }
+    #title img{
+        margin-left:10px;
+    }
+    #slides{
+        height:30%;
+    }
+    .slide img{
+        margin-left:0;
+        margin-top:0px;
+    }
+    #se{
+        font-size: 26px;
+    }
+    .inforlist h2{
+        display:block;
+    }
+    .col{
+        width:25%;
+        height:100px;
+        border:2px solid #e6e6e6;
+    }
+    .col img{
+        width:31px;
+        height:31px;
+        margin-top:20px;
+        margin-left:30px;
+    }
+    .col p{
+        text-align: center;
+    }
+}
