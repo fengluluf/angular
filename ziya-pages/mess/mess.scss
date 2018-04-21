@@ -1,0 +1,50 @@
+page-mess {
+    #body{
+        background-color: #eeeeee;
+    }
+    #back{
+        float: left;
+        margin-left:5%;
+    }
+    .tou{
+        border-radius:50%;
+        width:20%;
+        margin-top:20px;
+    }
+    #p1{
+        position:absolute;
+        margin-top:40px;
+        margin-left:50px;
+        display:inline;
+    }
+    #p2{
+        position:absolute;
+        margin-top:110px;
+        margin-left:10px;
+        display:inline;
+        width:50%;
+    }
+    .mes1{
+        //display: inline;
+        width:70%;
+        margin-top:20px;
+        position:absolute; 
+       // background-image: url("assets/imgs/mess4.png");
+    }
+    .mes2{
+        width:70%;
+        margin-top:100px;
+        float: right;
+        position:absolute;
+        padding-right:10%;
+    }
+    #footer img{
+        width:9%;
+    }
+    #footer input{
+        width:70%;
+        border:none;
+        font-size:18px;
+        padding-left:20px;
+    }
+}

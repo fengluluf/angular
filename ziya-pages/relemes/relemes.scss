@@ -1,0 +1,23 @@
+page-relemes {
+    #body{
+        background-color: #f9f9f9;
+    }
+    #last input::-webkit-input-placeholder {
+                text-align: right;
+         }
+    #but1{
+        width:90%;
+        margin-left: 5%;
+        background-color: #fedb47;
+        font-size:18px;
+        margin-top:50px;
+    }
+    p{
+        margin-left: 4%;
+        font-size:18px;
+    }
+    #area{
+        width:100%;
+        border: none;
+    }
+}
